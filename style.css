@@ -1,6 +1,6 @@
-:root{--ink:#16202b;--slate:#4a5866;--line:#d9dde1;--bg:#fbfbf9;--accent:#2f6f73}
+:root{--ink:#0E1726;--slate:#5B6578;--line:#DCE1EA;--bg:#F8F9FC;--accent:#3446D4}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 "Libre Franklin",system-ui,-apple-system,"Segoe UI",sans-serif}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 "Inter",system-ui,-apple-system,"Segoe UI",sans-serif}
 .wrap{max-width:880px;margin:0 auto;padding:0 28px}
 header{border-bottom:1px solid var(--line)}
 header .wrap{display:flex;align-items:center;justify-content:space-between;height:76px}
@@ -17,8 +17,10 @@ h1{font-weight:300;font-size:clamp(34px,5.4vw,54px);line-height:1.12;letter-spac
 .points .n{display:block;width:24px;height:1px;background:var(--accent);margin-bottom:20px}
 .contact{border-top:1px solid var(--line);padding:56px 0 64px}
 .contact p{margin:0 0 6px;color:var(--slate)}.contact a{color:var(--ink);font-size:20px;text-decoration:none;border-bottom:1px solid var(--accent)}
-.notice{font-size:14px;color:var(--slate);background:#f1f2f0;border-left:2px solid var(--accent);padding:16px 20px;margin:0 0 72px}
+.notice{font-size:14px;color:var(--slate);background:#EEF1FB;border-left:2px solid var(--accent);padding:16px 20px;margin:0 0 72px}
 footer{border-top:1px solid var(--line);font-size:13px;color:var(--slate)}
 footer .wrap{display:flex;justify-content:space-between;gap:24px;padding-top:24px;padding-bottom:32px}footer a{color:var(--slate)}
 .doc{padding:72px 0 40px;max-width:40em}.doc h1{font-size:38px;margin-bottom:12px}.doc h2{font-size:17px;margin:36px 0 8px}.doc p{color:var(--slate)}
 @media(max-width:720px){.hero{padding:72px 0 56px}.points{grid-template-columns:1fr;gap:32px}.mark{font-size:12px;letter-spacing:.2em}footer .wrap{flex-direction:column;gap:8px}}
+
+.mark img{display:block;height:28px;width:auto}h1,.points h2,.doc h1{font-family:"Manrope","Inter",system-ui,sans-serif}h1{font-weight:600;letter-spacing:-.025em}@media(max-width:720px){.mark img{height:24px}}
